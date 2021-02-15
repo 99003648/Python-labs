@@ -1,7 +1,7 @@
+#Biggest of three/four numbers
 def max_num(num1,num2,num3):
     x=max(num1,num2,num3)
     return x
-
 def armstorng(n):
     sum=0
     r=n
