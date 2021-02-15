@@ -29,6 +29,7 @@ def func(a,b,c):
     elif int(a)>12:
         a=int(a)%12    
     return (a,b,c)
+
 #Correct the malformed date string , for e.g. "45/8/2018" to "14/9/2018"
 x=[1,3,5,7,8,10,12]
 z=[4,6,9,11]
@@ -122,7 +123,8 @@ def pert(x):
     lis_t=[]
     for i in t:
         lis_t.append(int("".join(i)))
-    print(max(lis_t))
+    print(max(lis_t
+              
 #Compute the word frequency in given message
 
 def Highest_num_suffule(x):
@@ -138,6 +140,7 @@ def Highest_num_suffule(x):
 def accumulated_strings(x):
     for i in x:
         print(i.upper()+i*x.index(i))
+        
 #RGB to Hex conversion and vice versa, e.g. (255,0,255) into 0xFF00FF
 def rgb_hex(x):
     print(x)
