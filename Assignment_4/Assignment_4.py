@@ -9,8 +9,7 @@
 '''
     
 
-
-'''class mobile_billing:
+class mobile_billing:
     def __init__(self, time, sms, service, carry_amt, addon):
         self.time = time # total outgoing call time
         self.sms = sms # total outgoing sms
@@ -32,7 +31,7 @@
             return self.bill'''
 
   #Implement Point as a class
-'''class Quad_point:
+class Quad_point:
 
     def __init__(self, x, y):
         self.x = x                
@@ -53,8 +52,8 @@
                     return f"({self.x}, {self.y})"  
                     
                     def dist_origin(self):       
-                        return round(pow((self.x**2 + self.y**2), 0.5), 3)'''
-'''class circle:
+                        return round(pow((self.x**2 + self.y**2), 0.5), 3)
+class circle:
     def __init__(self, radius):
         self.radius = radius
         
@@ -64,7 +63,7 @@
     def area(self):
         return 3.141 * (self.radius ** 2)'''
 
-'''class triangle:
+class triangle:
     def __init__(self,l,b,h):
         self.l = l
         self.b = b
@@ -86,7 +85,7 @@ class rectangle():
     def circumference(self):
         return 2*(self.len+self.wed)'''
 
-'''class box:
+class box:
     def __init__(self, length, breadth, height):
         self.length = length
         self.breadth = breadth
@@ -96,9 +95,9 @@ class rectangle():
         return self.length * self.breadth * self.height
  
     def display(self):
-        print(f"Length = {self.length}, Breadth = {self.breadth}, Height = {self.height}")'''
+        print(f"Length = {self.length}, Breadth = {self.breadth}, Height = {self.height}")
 
-'''import webcolors
+import webcolors
 class color:
     
     def __init__(self, hex_value):
